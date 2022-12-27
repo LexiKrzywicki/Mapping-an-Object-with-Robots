@@ -1,5 +1,4 @@
-# final-project-group-13
-final-project-group-13 created by GitHub Classroom
+# Mapping an Object with Robots
 
 ## Overview
 The goal of this project was to map an object in the middle on the field. The team did this by use an ultrasonic sensor, IR sensor, encoders, and a camera. The team also created a PD controller to keep the robot at a specific distance from the wall, and a PI controller to maintain a specific velocity. As the robot was wall following, the  ultrasonic sensor took readings every 250 ms and stored them in an array. Once all the reading from one side were taken, the data was sent to an MQTT server via the ESP32. A visualization of the object in the field was created from the array of readings.
